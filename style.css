@@ -1,0 +1,201 @@
+
+a {
+    text-decoration: none;
+  }
+  
+  a:link, a:visited {
+      color: black;
+  }
+  a:hover{
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  
+  }
+  
+  div.a {
+    line-height: normal;
+  }
+  
+  html, body {
+      height: 100%;
+      /* overflow-x:hidden; */
+      overflow-x: hidden;
+  }
+  
+  
+  body {
+    font-family:'Roboto serif', Thin100;
+    background-image: radial-gradient(#f3dcff, #ccfffe);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  header {
+      margin-left: 1em;
+      margin-top:1em;
+  }
+
+  h1{
+      font-size: 2.5vw;
+      margin:10px;
+  }
+
+  h2{
+    font-size: 2vw;
+    margin:10px;
+}
+
+h3{
+    font-size:2vw;
+    margin:10px;
+}
+
+
+
+#maze{
+right: 0;
+width: 55%;
+margin:auto;
+/* margin-top: -250px; */
+}
+
+#mazeLine{
+    position:absolute;
+    /* right:0; */
+    top:0;
+    width:50%;
+}
+
+#mazeText{
+    position:absolute;
+    font-size: 1.8em;
+    /* right:0; */
+    top:0;
+    width:50%;
+}
+
+#line1{
+    animation-duration: 6s;
+    animation-name: rotateOne;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes rotateOne {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+#line2{
+    animation-duration: 6s;
+    animation-name: rotateTwo;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes rotateTwo {
+    from {
+      transform: rotate(360deg);
+    }
+  
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  }
+
+
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    right:0;
+    top:0;
+  }
+
+  .dropbtn {
+    background-color: transparent;
+    width: 30%;
+    color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px #b67ad6(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* .dropdown-content a:hover {background-color: #f3dcff;} */
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: transparent;}
+
+
+  #text{
+      margin: auto;
+      margin-top: 10em;
+      width:42%;
+      line-height: 1.5em;
+      font-size: 1.1em;
+      font-family: 'Roboto Serif', sans-serif;
+      }
+
+      ::-moz-selection { /* Code for Firefox */
+        color: #3743b7;
+        background: #e4cdf9;
+      }
+      
+      ::selection {
+        color: #3743b7;
+        background: #e4cdf9;
+      }
