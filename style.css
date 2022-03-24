@@ -1,85 +1,147 @@
 
-a {
-    text-decoration: none;
-  }
-  
-  a:link, a:visited {
-      color: black;
-  }
-  a:hover{
-    color: transparent;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-  
-  }
-  
-  div.a {
-    line-height: normal;
-  }
-  
-  html, body {
-      height: 100%;
-      /* overflow-x:hidden; */
-      overflow-x: hidden;
-  }
-  
-  
-  body {
-    font-family:'Roboto serif', Thin100;
-    background-image: radial-gradient(#f3dcff, #ccfffe);
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
+       a {
+        text-decoration: none;
+      }
 
-  header {
-      margin-left: 1em;
-      margin-top:1em;
-  }
+      a:link, a:visited {
+         color: #0e1244;
+      }
+      a:hover{
+        color: transparent;
+        text-shadow: 0 0 5px #daff88;
+      }
+
+      div.a {
+        line-height: normal;
+      }
+
+      html, body {
+          height: 100%;
+          width: 100%;
+          overflow-x: hidden;
+
+      }
+
+
+      body {
+        font-family:'Lato', sans-serif;
+        background: rgb(219,191,255);
+        background: radial-gradient(circle, rgba(219,191,255,1) 12%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 73%, rgba(218,230,255,1) 100%);
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden; 
+        color: #0e1244;
+
+      }
+
+  
+
+
+@media only screen and (min-width: 1125px) {
 
   h1{
-      font-size: 2.5vw;
-      margin:10px;
-  }
-
-  h2{
-    font-size: 2vw;
+    font-size: 3vw;
     margin:10px;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    font-weight: 400;
+
+
+}
+
+h2{
+  font-size: 2vw;
+  margin:10px;
+  font-family: 'IBM Plex Serif', serif;
+  text-align: center;
+  font-weight: 400;
+
+
+
 }
 
 h3{
-    font-size:2vw;
-    margin:10px;
+  font-size:2.5vw;
+  margin:10px;
+  text-align: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400;
+  margin-bottom: 1em;
+  margin-top: 2.5em;
+
 }
 
+h4{
+  font-size:2vw;
+  margin:10px;
+  text-align: center;
+  margin-left:-5px;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+
+header {
+  margin-left: 1em;
+  margin-top:3em;
+  line-height: 3.2vw;
+  font-weight: 300;
+     
+}   
+    
 
 
 #maze{
-right: 0;
-width: 55%;
-margin:auto;
-/* margin-top: -250px; */
+  right: 0;
+  width: 50%;
+  margin:auto;
+  margin-top: -1em;
+  font-size: 1.6vw;
+  color: #b67ad6;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400;
+
 }
 
 #mazeLine{
-    position:absolute;
-    /* right:0; */
-    top:0;
-    width:50%;
+  position:absolute;
+  /* right:0; */
+  /* top:0; */
+  width:50%;
 }
 
 #mazeText{
-    position:absolute;
-    font-size: 1.8em;
-    /* right:0; */
-    top:0;
-    width:50%;
+  position:absolute;
+  font-size: 1.8em;
+  /* right:0; */
+  /* top:0; */
+  width:50%;
 }
 
+mazeText a {
+  text-decoration: none;
+}
+
+
+mazeText a:hover{
+  color: transparent;
+  text-shadow: 0 0 5px rgb(192, 124, 255);
+
+}
+
+
 #line1{
-    animation-duration: 6s;
-    animation-name: rotateOne;
-    animation-iteration-count: infinite;
-    animation-timing-function:linear;
+  animation-duration: 6s;
+  animation-name: rotateOne;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+}
+
+#curve1{
+  color:rgb(192, 124, 255)
 }
 
 @keyframes rotateOne {
@@ -92,14 +154,7 @@ margin:auto;
     }
   }
 
-#line2{
-    animation-duration: 6s;
-    animation-name: rotateTwo;
-    animation-iteration-count: infinite;
-    animation-timing-function:linear;
-}
-
-@keyframes rotateTwo {
+  @keyframes rotateTwo {
     from {
       transform: rotate(360deg);
     }
@@ -109,10 +164,43 @@ margin:auto;
     }
   }
 
+#line2{
+    animation-duration: 6s;
+    animation-name: rotateTwo;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
 
 
+  #line3{
+    animation-duration: 7s;
+    animation-name: rotateOne;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+  #line4{
+    animation-duration: 10s;
+    animation-name: rotateTwo;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
 
 
+  #line5{
+    animation-duration: 9s;
+    animation-name: rotateOne;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+
+#line6{
+  animation-duration: 10s;
+  animation-name: rotateTwo;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+}
 
 
 ul {
@@ -141,6 +229,29 @@ ul {
   }
 
 
+
+  
+ #home{
+   width:140px;
+   padding: 12px;
+   font-size: 12px;
+    border: none;
+    position: absolute;
+    display: inline-block;
+    left:0;
+    top:0;
+ }
+
+  #home:hover {
+  filter: blur(5px);
+}
+
+
+  #star{
+    width:150px;
+  }
+
+
   .dropdown {
     position: absolute;
     display: inline-block;
@@ -150,10 +261,9 @@ ul {
 
   .dropbtn {
     background-color: transparent;
-    width: 30%;
+    /* width: 30%; */
     color: transparent;
-    padding: 16px;
-    font-size: 16px;
+    padding: 1em;
     border: none;
   }
   
@@ -162,9 +272,16 @@ ul {
     display: none;
     position: absolute;
     background-color: transparent;
-    min-width: 160px;
+    min-width: 250px;
+    line-height: 1vw;
     /* box-shadow: 0px 8px 16px 0px #b67ad6(0,0,0,0.2); */
     z-index: 1;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 400;
+    margin-top: -2em;
+    margin-left: -3em;
+    font-size: 1.2vw;
+
   }
   
   .dropdown-content a {
@@ -173,29 +290,398 @@ ul {
     text-decoration: none;
     display: block;
   }
+
+  .box{
+    display:block; 
+    position:relative; 
+    width:250px; 
+    margin-top:-18em; 
+    margin-left:-2em; 
+    z-index: -10
+  }
+
   
   /* .dropdown-content a:hover {background-color: #f3dcff;} */
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: transparent;}
+  .dropdown:hover .dropbtn {
+    filter: blur(5px);
+  }
 
 
   #text{
       margin: auto;
       margin-top: 10em;
-      width:42%;
+      width:45%;
       line-height: 1.5em;
-      font-size: 1.1em;
-      font-family: 'Roboto Serif', sans-serif;
+      font-size: 1.2em;
+      font-family:'Lato', sans-serif;
+
       }
 
-      ::-moz-selection { /* Code for Firefox */
-        color: #3743b7;
-        background: #e4cdf9;
-      }
+    #footnote{
+      line-height:1.5em;
+      text-align: center;
+    }
+
+    #note{
+      width: 85%;
+      margin-left:2.5em;
+      font-size: 1em;
+
+    }
+
+    #image{
+      width:600px;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size:1vw;
+      margin-top: -0.05em;
+      line-height: 1.2vw;
+      text-align: center;
+      color:#513ea7
+
+    }
+
+
+    ::-moz-selection { /* Code for Firefox */
+      color: #513ea7;
+      background: #e7fd9c;
+      filter: blur(2px);
+      z-index: 10;
+
+    }
+    
+    ::selection {
+      color: #513ea7;
+      background:#e7fd9c;
+      filter: blur(2px);
+      z-index: 10;
+
+
+    }
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1125px) {
+
+  header {
+    margin-left: 1em;
+    margin-top:10em;
+    line-height: 8.2vw;     
+  }   
       
-      ::selection {
-        color: #3743b7;
-        background: #e4cdf9;
-      }
+ 
+ h1{
+  font-size: 8vw;
+  margin:10px;
+  font-family: 'IBM Plex Serif', serif;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 3vw;
+  margin:10px;
+  font-family: 'IBM Plex Serif', serif;
+  text-align: center;
+
+
+}
+
+h3{
+  font-size:6vw;
+  margin:10px;
+  text-align: center;
+  font-family: 'IBM Plex Serif', serif;
+  margin-bottom: 2em;
+  margin-top: 3em;
+
+}
+
+h4{
+  font-size:6vw;
+  margin:10px;
+  text-align: center;
+  margin-left:-5px;
+  font-family: 'IBM Plex Serif', serif;
+  margin-bottom: 2em;
+  margin-top: 3em;
+
+}
+
+
+
+      #maze{
+        right: 0;
+        width: 100%;
+        margin:auto;
+        margin-top: auto;
+        font-size: 3vw;
+        font-family: 'IBM Plex Serif', serif;
+        font-weight: 400;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        }
+        
+        #mazeLine{
+            position:absolute;
+            /* right:0; */
+            top:0;
+            width:100%;
+            margin-top: 350px;
+
+        }
+        
+        #mazeText{
+            position:absolute;
+            /* right:0; */
+            top:0;
+            width:100%;
+            margin-top: 350px;
+
+        }
+        
+        #line1{
+            animation-duration: 6s;
+            animation-name: rotateOne;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+        }
+        
+        @keyframes rotateOne {
+            from {
+              transform: rotate(0deg);
+            }
+          
+            to {
+              transform: rotate(360deg);
+            }
+          }
+        
+          @keyframes rotateTwo {
+            from {
+              transform: rotate(360deg);
+            }
+          
+            to {
+              transform: rotate(0deg);
+            }
+          }
+        
+        #line2{
+            animation-duration: 6s;
+            animation-name: rotateTwo;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+        }
+        
+        
+          #line3{
+            animation-duration: 7s;
+            animation-name: rotateOne;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+        }
+        
+          #line4{
+            animation-duration: 8s;
+            animation-name: rotateTwo;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+        }
+        
+        
+          #line5{
+            animation-duration: 9s;
+            animation-name: rotateOne;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+        }
+        
+        
+        #line6{
+          animation-duration: 10s;
+          animation-name: rotateTwo;
+          animation-iteration-count: infinite;
+          animation-timing-function:linear;
+        }
+        
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover {
+            color: transparent;
+            text-shadow: 0 0 5px rgba(0,0,0,0.5);
+          }
+        
+
+                    
+          #home{
+            width:250px;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            position: absolute;
+            display: inline-block;
+            left:0;
+            top:0;
+          }
+
+          #home:hover {
+          filter: blur(5px);
+          }
+
+
+        
+          #star{
+            width:250px;
+            right:0;
+            top:0;
+          }
+
+          .dropdown {
+            position: absolute;
+            display: inline-block;
+            right:0;
+            top:0;
+
+          }
+        
+          .dropbtn {
+            background-color: transparent;
+            color: transparent;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+          }
+          
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            box-shadow: 0px 8px 16px 0px #b67ad6(0,0,0,0.2);
+            z-index: 1;
+            /* background: rgb(219,191,255);
+            background: radial-gradient(circle, rgba(219,191,255,1) 12%, rgba(236,242,255,1) 100%); */
+            font-size: 6vw;
+            right: 20%;
+            padding: 1em;
+            margin-left:px;
+            backdrop-filter: blur(10px);
+            margin-top: 1em;
+            width:500px;
+          }
+         
+          
+          .box{
+            display:block; 
+            position:absolute; 
+            width:700px; 
+            margin-top:-14em; 
+            margin-left:-100px; 
+            z-index: -10
+          }
+
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            width: 500px;
+            line-height: 8vw;
+
+
+          }
+          
+          /* .dropdown-content a:hover {background-color: #f3dcff;} */
+          
+          .dropdown:hover .dropdown-content {display: block;}
+          
+          .dropdown:hover .dropbtn {background-color: transparent; filter: blur(5px);}
+        
+        
+          #text{
+              margin: auto;
+              margin-top: 10em;
+              width:95%;
+              line-height: 4vw;
+              font-size: 1.6vw;
+            }
+        
+              ::-moz-selection { /* Code for Firefox */
+                color: #3743b7;
+                text-shadow: 0 0 5px #daff88;
+
+              }
+              
+              ::selection {
+                color: #3743b7;
+                text-shadow: 0 0 5px #daff88;
+
+              }
+
+              #footnote{
+                line-height:1.5em;
+                text-align: center;
+              }
+          
+              #note{
+                width: 85%;
+                margin-left:2.5em;
+                font-size: 1.6vw;
+          
+              }
+
+              #image{
+                width:100%;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size:1.2vw;
+                margin-top: -0.05em;
+                line-height: 1.6vw;
+                text-align: center;
+                color:#513ea7
+          
+              }
+
+}
