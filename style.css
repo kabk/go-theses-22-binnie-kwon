@@ -399,7 +399,7 @@ ul {
 }
 
 h2{
-  font-size: 4vw;
+  font-size: 6vw;
   margin:10px;
   font-family: 'IBM Plex Serif', serif;
   text-align: center;
@@ -408,7 +408,7 @@ h2{
 }
 
 h3{
-  font-size:7vw;
+  font-size:8vw;
   margin:10px;
   text-align: center;
   font-family: 'IBM Plex Serif', serif;
@@ -440,6 +440,7 @@ h4{
         font-weight: 400;
         overflow-x: hidden;
         overflow-y: hidden;
+        margin-top:150px;
 
         }
         
@@ -644,8 +645,8 @@ h4{
               margin: auto;
               margin-top: 10em;
               width:95%;
-              line-height: 4vw;
-              font-size: 3vw;
+              line-height: 5vw;
+              font-size: 4vw;
             }
         
               ::-moz-selection { /* Code for Firefox */
@@ -661,14 +662,13 @@ h4{
               }
 
               #footnote{
-                line-height:1.5em;
                 text-align: center;
               }
           
               #note{
                 width: 85%;
                 margin-left:2.5em;
-                font-size: 1.6vw;
+                font-size: 4vw;
           
               }
 
@@ -677,9 +677,9 @@ h4{
                 display:block;
                 margin-left: auto;
                 margin-right: auto;
-                font-size:1.2vw;
+                font-size:3vw;
                 margin-top: -0.05em;
-                line-height: 1.6vw;
+                line-height: 5vw;
                 text-align: center;
                 color:#513ea7
           
