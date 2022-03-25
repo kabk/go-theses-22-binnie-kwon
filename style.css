@@ -391,7 +391,7 @@ ul {
       
  
  h1{
-  font-size: 8vw;
+  font-size: 9vw;
   margin:10px;
   font-family: 'IBM Plex Serif', serif;
   text-align: center;
@@ -399,7 +399,7 @@ ul {
 }
 
 h2{
-  font-size: 3vw;
+  font-size: 4vw;
   margin:10px;
   font-family: 'IBM Plex Serif', serif;
   text-align: center;
@@ -408,7 +408,7 @@ h2{
 }
 
 h3{
-  font-size:6vw;
+  font-size:7vw;
   margin:10px;
   text-align: center;
   font-family: 'IBM Plex Serif', serif;
@@ -418,7 +418,7 @@ h3{
 }
 
 h4{
-  font-size:6vw;
+  font-size:7vw;
   margin:10px;
   text-align: center;
   margin-left:-5px;
@@ -435,7 +435,7 @@ h4{
         width: 100%;
         margin:auto;
         margin-top: auto;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: 'IBM Plex Serif', serif;
         font-weight: 400;
         overflow-x: hidden;
@@ -448,7 +448,7 @@ h4{
             /* right:0; */
             top:0;
             width:100%;
-            margin-top: 350px;
+            /* margin-top: 350px; */
 
         }
         
@@ -457,7 +457,7 @@ h4{
             /* right:0; */
             top:0;
             width:100%;
-            margin-top: 350px;
+            /* margin-top: 350px; */
 
         }
         
@@ -555,7 +555,7 @@ h4{
 
                     
           #home{
-            width:250px;
+            width:230px;
             padding: 16px;
             font-size: 16px;
             border: none;
@@ -644,7 +644,7 @@ h4{
               margin-top: 10em;
               width:95%;
               line-height: 4vw;
-              font-size: 1.6vw;
+              font-size: 3vw;
             }
         
               ::-moz-selection { /* Code for Firefox */
