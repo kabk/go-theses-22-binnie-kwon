@@ -651,8 +651,8 @@ h4{
               margin: auto;
               margin-top: 8em;
               width:95%;
-              line-height: 8vw;
-              font-size: 6vw;
+              line-height: 6vw;
+              font-size: 5vw;
             }
         
               ::-moz-selection { /* Code for Firefox */
