@@ -96,10 +96,10 @@ header {
 
 #maze{
   right: 0;
-  width: 50%;
+  width: 45%;
   margin:auto;
   margin-top: -1em;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   color: #b67ad6;
   font-family: 'IBM Plex Serif', serif;
   font-weight: 400;
@@ -110,7 +110,7 @@ header {
   position:absolute;
   /* right:0; */
   /* top:0; */
-  width:50%;
+  width:45%;
 }
 
 #mazeText{
@@ -118,7 +118,7 @@ header {
   font-size: 1.8em;
   /* right:0; */
   /* top:0; */
-  width:50%;
+  width:45%;
 }
 
 mazeText a {
@@ -609,7 +609,7 @@ h4{
             margin-top: 1em;
             width:500px;
           }
-         s
+         
           
           .box{
             display:block; 
