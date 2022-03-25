@@ -441,7 +441,6 @@ h4{
         right: 0;
         width: 100%;
         margin:auto;
-        margin-top: auto;
         font-size: 4vw;
         font-family: 'IBM Plex Serif', serif;
         font-weight: 400;
@@ -456,7 +455,7 @@ h4{
             /* right:0; */
             top:0;
             width:100%;
-            /* margin-top: 350px; */
+            margin-top:150px;
 
         }
         
@@ -465,7 +464,7 @@ h4{
             /* right:0; */
             top:0;
             width:100%;
-            /* margin-top: 350px; */
+            margin-top:150px;
 
         }
         
