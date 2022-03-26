@@ -260,6 +260,8 @@ ul {
     display: inline-block;
     left:0;
     top:0;
+    margin-top:-1em;
+
  }
 
   #home:hover {
@@ -269,6 +271,7 @@ ul {
 
   #star{
     width:160px;
+    margin-top:-0.5em;
   }
 
 
@@ -473,6 +476,23 @@ h4{
 
 }
 
+#title{
+  position: relative;
+  color: #b67ad6;
+  font-size: 4vw;
+  line-height: 5vw;
+  margin-top:30em;
+}
+
+#name{
+  position: relative;
+  color: #b67ad6;
+  font-size: 4vw;
+  line-height: 5vw;
+  background-color: #daff88;
+  backdrop-filter: blur(20px);
+}
+
 
 
       #maze{
@@ -646,12 +666,13 @@ h4{
             z-index: 1;
             /* background: rgb(219,191,255);
             background: radial-gradient(circle, rgba(219,191,255,1) 12%, rgba(236,242,255,1) 100%); */
-            font-size: 6vw;
+            font-size: 4vw;
             right: 20%;
             padding: 1em;
             margin-left:px;
             margin-top: 1em;
-            width:500px;
+            width:660px;
+            height: 1060px;
             backdrop-filter: blur(10px);
           }
          
@@ -659,8 +680,8 @@ h4{
           .box{
             display:block; 
             position:absolute; 
-            width:700px; 
-            margin-top:-14em; 
+            width:850px; 
+            margin-top:-30em; 
             margin-left:-100px; 
             z-index: -10
           }
@@ -671,8 +692,8 @@ h4{
             padding: 12px 16px;
             text-decoration: none;
             display: block;
-            width: 500px;
-            line-height: 8vw;
+            width: 700px;
+            line-height: 5vw;
             font-family: 'IBM Plex Serif', serif;
 
 
@@ -727,6 +748,27 @@ h4{
                 text-align: center;
                 color:#513ea7
           
+              }
+
+              #title2{
+                display: hidden;
+                position: relative;
+                color: #b67ad6;
+                font-size: 4vw;
+                line-height:5vw;
+                margin-left: 1em;
+                margin-top: 20em;
+
+
+              }
+              
+              #school{
+                display: hidden;
+                position: relative;
+                color: #b67ad6;
+                font-size: 4vw;
+                margin-left: 1em;
+    
               }
 
 }
