@@ -4,7 +4,7 @@
       }
 
       a:link, a:visited {
-         color: #0e1244;
+         color: #b67ad6;
       }
       a:hover{
         color: transparent;
@@ -24,7 +24,7 @@
 
 
       body {
-        font-family:'Lato', sans-serif;
+        font-family: 'IBM Plex Sans', sans-serif;
         background: rgb(219,191,255);
         background: radial-gradient(circle, rgba(219,191,255,1) 12%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 73%, rgba(218,230,255,1) 100%);
         height: 100%;
@@ -86,19 +86,39 @@ h4{
 
 header {
   margin-left: 1em;
-  margin-top:3em;
-  line-height: 3.2vw;
-  font-weight: 300;
-     
+  margin-top:1em;
+  line-height: 3vw;
+  font-weight: 300;     
+  width:100%;
 }   
     
+
+#title{
+  position: absolute;
+  left:0.5em;
+  color: #b67ad6;
+  font-size: 1.2vw;
+  margin-top:-0.3em;
+  line-height: 1.4vw;
+}
+
+#name{
+  position: absolute;
+  right:0.7em;
+  color: #b67ad6;
+  font-size: 1.2vw;
+  margin-top:-0.3em;
+  line-height: 1.4vw;
+  background-color: #daff88;
+  backdrop-filter: blur(20px);
+}
 
 
 #maze{
   right: 0;
   width: 45%;
   margin:auto;
-  margin-top: -1em;
+  margin-top: 2em;
   font-size: 1.4vw;
   color: #b67ad6;
   font-family: 'IBM Plex Serif', serif;
@@ -248,7 +268,7 @@ ul {
 
 
   #star{
-    width:150px;
+    width:160px;
   }
 
 
@@ -272,14 +292,14 @@ ul {
     display: none;
     position: absolute;
     background-color: transparent;
-    min-width: 250px;
-    line-height: 1vw;
+    min-width: 350px;
+    line-height: 0.5vw;
     /* box-shadow: 0px 8px 16px 0px #b67ad6(0,0,0,0.2); */
     z-index: 1;
     font-family: 'IBM Plex Serif', serif;
     font-weight: 400;
     margin-top: -2em;
-    margin-left: -3em;
+    margin-left: -8em;
     font-size: 1.2vw;
 
   }
@@ -289,14 +309,15 @@ ul {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-weight: 400;
   }
 
   .box{
     display:block; 
     position:relative; 
-    width:250px; 
-    margin-top:-18em; 
-    margin-left:-2em; 
+    width:360px; 
+    margin-top:-29.2em; 
+    margin-left:-1.5em; 
     z-index: -10
   }
 
@@ -359,8 +380,25 @@ ul {
       background:#e7fd9c;
       filter: blur(2px);
       z-index: 10;
+    }
 
+    #title2{
+      position: absolute;
+      left:0.5em;
+      color: #b67ad6;
+      font-size: 1.2vw;
+      line-height: 1.4vw;
+      bottom: 1em;
 
+    }
+    
+    #school{
+      position: absolute;
+      right:0.7em;
+      color: #b67ad6;
+      font-size: 1.2vw;
+      line-height: 1.4vw;
+      bottom: 1em;
     }
 
     }
