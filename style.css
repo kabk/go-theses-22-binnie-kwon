@@ -348,14 +348,16 @@ ul {
       }
 
     #footnote{
-      line-height:1.5em;
       text-align: center;
+      font-size: 0.9em;
+      line-height: 1.3em;
     }
 
     #note{
       width: 85%;
       margin-left:2.5em;
       font-size: 1em;
+      line-height: 1.2em;
 
     }
 
