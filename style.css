@@ -292,6 +292,7 @@ ul {
     color: transparent;
     padding: 1em;
     border: none;
+    cursor:pointer;
   }
   
   
@@ -331,8 +332,6 @@ ul {
   
   /* .dropdown-content a:hover {background-color: #f3dcff;} */
   
-  .dropdown:hover .dropdown-content {display: block;}
-  
   .dropdown:hover .dropbtn {
     filter: blur(5px);
   }
@@ -342,7 +341,7 @@ ul {
       margin: auto;
       margin-top: 10em;
       width:45%;
-      line-height: 1.5em;
+      line-height: 1.4em;
       font-size: 1.2em;
 
       }
@@ -357,7 +356,7 @@ ul {
       width: 85%;
       margin-left:2.5em;
       font-size: 1em;
-      line-height: 1.2em;
+      line-height: 1.4em;
 
     }
 
@@ -712,7 +711,7 @@ h4{
           
           /* .dropdown-content a:hover {background-color: #f3dcff;} */
           
-          .dropdown:hover .dropdown-content {display: block; }
+
           
           .dropdown:hover .dropbtn {background-color: transparent; filter: blur(5px);}
         
@@ -781,13 +780,5 @@ h4{
                 margin-left: 1em;
     
               }
-
-}
-
-@media only screen and (max-width: 1125px) and (hover: none) {
-
-  .dropdown:hover { pointer-events:none; }
-  .dropdown:hover button { pointer-events:none; }
-  .dropdown:hover .dropdown-content { pointer-events:auto; }
 
 }
