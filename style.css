@@ -374,6 +374,10 @@ ul {
 
     }
 
+  image:hover{
+      background:#0000ff;
+  }
+
 
     ::-moz-selection { /* Code for Firefox */
       color: #513ea7;
@@ -408,6 +412,8 @@ ul {
       line-height: 1.4vw;
       bottom: 1em;
     }
+
+
 
     }
 
@@ -706,7 +712,7 @@ h4{
           
           /* .dropdown-content a:hover {background-color: #f3dcff;} */
           
-          .dropdown:hover .dropdown-content {display: block;}
+          .dropdown:hover .dropdown-content {display: block; }
           
           .dropdown:hover .dropbtn {background-color: transparent; filter: blur(5px);}
         
@@ -775,5 +781,13 @@ h4{
                 margin-left: 1em;
     
               }
+
+}
+
+@media only screen and (max-width: 1125px) and (hover: none) {
+
+  .dropdown:hover { pointer-events:none; }
+  .dropdown:hover button { pointer-events:none; }
+  .dropdown:hover .dropdown-content { pointer-events:auto; }
 
 }
